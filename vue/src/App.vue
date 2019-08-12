@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Splash SplashText="Centerville Student Council"/>
+    <Header/>
   </div>
 </template>
 

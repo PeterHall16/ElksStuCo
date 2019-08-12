@@ -33,7 +33,8 @@ h1 {
     font-size: 35pt;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-    color: #070707;
+    color: #2c3e50;
+    text-shadow: 0px 0px 10px rgba(0,0,0,.1)
     /* border: 1px solid red; */
 }
 
