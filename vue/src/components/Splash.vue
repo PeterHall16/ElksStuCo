@@ -21,7 +21,7 @@ export default {
     display: flex;
     align-items: center;
     width: 100%;
-    height: 92%;
+    height: 92vh;
     top: 0;
     background: #EEE
 }
@@ -30,7 +30,7 @@ h1 {
     margin: 5vw;
     width: 60%;
     text-align: left;
-    font-size: 35pt;
+    font-size: 45pt;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     color: #2c3e50;

@@ -1,17 +1,18 @@
 <template>
     <div id="header">
-      <font-awesome-icon class="icon" icon="home" />
-      <font-awesome-icon class="icon" icon="users" />
-      <font-awesome-icon class="icon" icon="calendar-alt" />
-      <font-awesome-icon class="icon" icon="dollar-sign" />
+      <font-awesome-icon class="icon" icon="home"/>
+      <font-awesome-icon class="icon" icon="users"/>
+      <font-awesome-icon class="icon" icon="calendar-alt"/>
+      <font-awesome-icon class="icon" icon="dollar-sign"/>
+      <font-awesome-icon class="icon" icon="envelope"/>
     </div>
 </template>
 
 <script>
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faDollarSign, faUsers, faCalendarAlt, faHome } from '@fortawesome/free-solid-svg-icons'
+import { faDollarSign, faUsers, faCalendarAlt, faHome, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faDollarSign, faUsers, faCalendarAlt, faHome)
+library.add(faDollarSign, faUsers, faCalendarAlt, faHome, faEnvelope)
 
 
 export default {
@@ -26,10 +27,10 @@ export default {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 8%;
+    height: 8vh;
     width: 100%;
     background: #FFF;
-    box-shadow: 0px 0px 15px rgba(0,0,0,.1)
+    box-shadow: 0px 0px 15px rgba(0,0,0,.1);
 }
 
 .icon { 
